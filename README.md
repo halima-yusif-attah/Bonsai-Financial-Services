@@ -16,6 +16,7 @@ The project aims to simplify tax management and proposal tracking for freelancer
 - Proposal tracking system
 - Page navigation for exploring services and reviews
 - User authentication (in progress)
+- Products and Templates links (in progress)
 
 ## Navigation
 The website features the following pages for easy navigation:
