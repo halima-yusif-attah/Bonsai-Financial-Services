@@ -1,0 +1,48 @@
+.homeInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 40%;
+    margin-bottom: 15rem;
+}
+.homeLogin {
+    width: 100%;
+    display: flex;
+    border-radius: 0.25rem;
+    border: 3px solid #00b289;
+}
+.email {
+    padding: 1.25rem 4rem;
+    border: none;
+    width: 100%;
+}
+
+.email:focus {
+    outline: none;
+}
+
+.email::placeholder,
+.pswd::placeholder {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.homeBtn {
+    /* padding: 1.25rem; */
+    background-color: #00b289;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeBtn button {
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    /* text-align: center; */
+}

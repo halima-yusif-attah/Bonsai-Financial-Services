@@ -1,0 +1,47 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.navlinks>li {
+    list-style-type: disc;
+    color: #4c4d5f;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.navlinks>li:first-child {
+    list-style: none;
+}
+.footerdescription {
+    /* width: 70%; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 0.85rem;
+    /* padding: 2rem; */
+    color: #666672;
+    position: relative;
+}
+.info {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+.conditions {
+    position: absolute;
+    display: flex;
+    gap: 0.5rem;
+    left: 78%;
+    text-transform: capitalize;
+}

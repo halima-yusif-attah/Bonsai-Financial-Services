@@ -1,0 +1,108 @@
+.taxContainer {
+    position: relative;
+    /* padding: 15rem 8rem 2rem; */
+}
+.preliminaryWrapper {
+    /* position: absolute;
+    top: 5%; */
+    /* bottom: 10%; */
+    /* margin-bottom: 80vh; */
+}
+.taxLogo {
+    width: 40%;
+    display: flex;
+    /* background: red; */
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.taxLogo>p {
+    text-transform: capitalize;
+    color: #00b289;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.infoOne {
+    font-size: 2.35rem;
+    color: #4c4d5f;
+}
+.infoTwo {
+    font-size: 1rem;
+    color: #616273;
+    line-height: 2rem;
+    margin: 1rem 0;
+
+}
+.BenefitsWrapper {
+    /* margin-top: 5rem; */
+    position: absolute;
+    top: 15.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 100%;
+    /* right: 7%;
+    left: 7%; */
+    /* transform: translate(-7%,-7%); */
+}
+.coverage {
+    /* position: absolute;
+    top: 45%;
+    left: 10%; */
+    margin-top: 165%;
+}
+.dynamicContainer {
+    /* position: absolute;
+    top: 55%; */
+    margin-top: 210%;
+}
+.dynamicHeading {
+    /* text-transform: capitalize; */
+    width: 67.5%;
+    color: #4c4d5f;
+    font-size: 2.25rem;
+}
+.padding {
+    padding: 0.8rem 1rem 1.5rem 0;
+}
+.reviewFeatHeading {
+    font-size: 2.5rem;
+    color: #4c4d5f;
+    text-transform: capitalize;
+}
+
+.features {
+    background: #fff;
+    width: 47%;
+    display: flex;
+    align-items: center;
+    /* gap: 6rem; */
+    padding: 0.8rem 1rem 1.5rem 0;
+    /* position: relative; */
+    /* box-shadow: 0px 1px 1px 0px #eeeff20f; */
+    border-radius: 0.45rem;
+    box-shadow: 0px 1px 2px 0px #1018280F, 10px 0px 30px 5px #8383870f;
+    
+}
+.featIcon {
+    /* position: absolute; */
+    padding: 0;
+    margin: 0;
+}
+.featText {
+    width: 100%;
+    /* background: #fff3ec; */
+    display: flex;
+    flex-direction: column;
+    color: #7e7e84;
+    font-size: 1rem;
+    gap: 1.5rem;
+}
+.featTitle {
+    font-size: 1.5rem;
+    color: #4c4d5f;
+
+}
+.featTitle::first-letter {
+    text-transform: uppercase;
+}

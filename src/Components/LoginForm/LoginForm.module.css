@@ -1,0 +1,88 @@
+.formContainer,.form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.form {
+    box-shadow: 0px 1px 2px 0px #1018280F, 0px 2px 3px 0px #8383870f;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.75rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.35rem;
+}
+.loginTitle {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: #4c4d5f;
+}
+.or {
+    border-bottom: 1px solid #b7b7b9;
+    width: 25vw;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+.email, .pswd {
+    width: 25vw;
+    padding: 0.75rem;
+    border:1px solid #a7a7a8;
+    border-radius: 5px;
+}
+.email::placeholder, .pswd::placeholder {
+    font-size: 1rem;
+}
+.email:focus {
+    /* border: 1px solid #1616fa; */
+    border-color: #00b289;
+}
+.checkbox input:hover, .checkbox label:hover{
+    cursor: pointer;
+}
+.checkbox input {
+    margin-right: 0.5rem;
+}
+.checkbox label {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.loginBtn {
+    padding: 0.5rem 1.25rem;
+    width: 25vw;
+    background-color: #00b289;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+}
+.loginBtn:hover {
+    cursor: pointer;
+    background-color: #15cba1;
+}
+.loginBtn button {
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 1rem;
+   font-weight: 500;
+   
+}
+.reset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #00b289;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.resetLink {
+    margin-bottom: 1rem
+}

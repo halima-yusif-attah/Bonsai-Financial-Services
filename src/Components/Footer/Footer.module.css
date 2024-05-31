@@ -1,0 +1,32 @@
+.footerWrapper {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8rem;
+    flex-wrap: wrap;
+    position: relative;
+}
+.footer:nth-child(4) {
+   /* background-color: red; */
+   position: absolute;
+   top: 65%;
+}
+.service {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: #5b5d6d;
+}
+.linksContainer {
+    color: #9c9db0;
+    display: flex;
+    flex-direction: column;
+    gap: 2.75rem;
+}
+.link1, .link2, .link3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    font-size: 1rem;
+}

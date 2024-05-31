@@ -1,0 +1,51 @@
+.moreInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.yourText {
+    color: #148372;
+}
+.faq {
+    width: 70%;
+    /* background: violet; */
+}
+.faqTitle {
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #077060;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.questionsContainer {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.questionCard {
+    /* background: red; */
+    /* width: 80%; */
+}
+.questions {
+    display: flex;
+    justify-content: space-between;      
+    gap: 20.5rem;
+    padding: 0.27rem;
+   font-size: 1.4rem;
+   font-weight: 700;
+   color: #4c4d5f;
+}
+.response {
+    font-size: 1rem;   
+    padding: 0.15rem;
+    line-height: 1.5rem;
+    color: #787880;
+}
+.response::first-letter {
+    text-transform: uppercase;
+}

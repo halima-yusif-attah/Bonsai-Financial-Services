@@ -1,0 +1,15 @@
+.btn {
+    padding: 1rem 2.5rem;
+    border-radius: 0.25rem;
+}
+.btn>button {
+    border: none;
+    background: none;
+    font-size: 1.2rem;
+}
+.btn>button::first-letter {
+    text-transform: uppercase;
+}
+.btn:hover {
+    transition: all 0.3s;
+}

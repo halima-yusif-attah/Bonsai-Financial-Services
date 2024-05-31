@@ -1,0 +1,106 @@
+.BenefitsWrapper {
+    /* margin-top: 5rem; */
+    position: absolute;
+    top: 15.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 100%;
+    /* right: 7%;
+    left: 7%; */
+    /* transform: translate(-7%,-7%); */
+}
+.taxBriefContainer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.taxBriefHeading {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    /* text-align: center; */
+    font-size: 2rem;
+    align-items: center;
+    line-height: 2.75rem;
+    color: #4c4d5f;
+}
+
+.taxBenefitsContainer {
+    display: inline-flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.benefitsCard {
+    width: 25%;
+    /* background: #fff; */
+    /* box-shadow: 2px 1px 15px 1px #0000000f, 10px 0px 30px 5px #0000000f; */
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+
+    gap: 1rem;
+    /* border: 1px solid greenyellow; */
+}
+
+.benefitTitle::first-letter,
+.benefitInfo::first-letter {
+    text-transform: uppercase;
+}
+
+.benefitTitle {
+    font-size: 1.5rem;
+    color: #4c4d5f;
+    font-weight: 500;
+}
+
+.benefitInfo {
+    color: #7e7e84;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.detailedContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.detailedCard,
+.detailedText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detailedCard:nth-child(2) {
+    flex-direction: row-reverse;
+    /* justify-content: space-around; */
+}
+
+.detailedText {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    font-size: 1.25rem;
+    color: #7e7e84;
+
+}
+
+.detailedTitle {
+    font-size: 2rem;
+    color: #4c4d5f;
+    text-transform: capitalize;
+}
+
+.detailedDiagram {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background: #fff3ec;
+}

@@ -1,0 +1,38 @@
+ .reviewContainer {
+    /* padding: 10rem 2rem 0; */
+    /* background: greenyellow; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 10rem 1rem 5rem;
+}
+.reviewWrappers {
+    background: #fff;
+    padding: 3rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    color: #4c4d5f;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+    box-shadow: 0px 1px 2px 0px #1018280F, 10px 0px 30px 5px #8383870f;    
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    /* background: blueviolet; */
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+        /* font-size: 1rem; */
+    
+}
+.msg1::first-letter, .msg2::first-letter {
+    text-transform: uppercase;
+}
+.msg1,.msg2 {
+    line-height: 2rem;
+
+}
+.name {
+    color: #4c4d5f;
+}

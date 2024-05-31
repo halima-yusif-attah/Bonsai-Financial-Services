@@ -1,0 +1,253 @@
+.homeWrapper {
+    /* padding: 15rem 8rem 2rem; */
+}
+.greenBg {
+    width: 46.875rem;
+    height: 40rem;
+    background-color: #c8ecdf;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 100% 0% 82% 18% / 0% 32% 68% 100%;
+}
+.homeInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 40%;
+    margin-bottom: 15rem;
+}
+.homeInfoTitle {
+    font-size: 2.5rem;
+    color: #4c4d5f;
+    font-weight: 400;
+    line-height: 60px;
+
+}
+.homeInfoDesc {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #4c4d5f;
+    line-height: 25px;
+    margin-bottom: 2rem;
+}
+.homeLogin {
+    display: flex;
+    border-radius: 0.25rem;
+    border:3px solid #00b289;
+}
+/* .email {
+    padding: 1.25rem 4rem;
+    border: none;
+}
+.email:focus {
+    outline: none;
+}
+.email::placeholder, .pswd::placeholder {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}
+.homeBtn {
+    padding: 1.25rem;
+    background-color: #00b289;
+    width: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeBtn button {
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    /* text-align: center; *
+} */
+.workInfoOne, .workInfoTwo {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   position: relative;
+}
+.workInfoOneTitle, .workInfoTwoTitle {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #4c4d5f;
+}
+.workInfoOneText, .workInfoTwoText {
+    text-align: center;
+    width: 50%;
+    font-size: 1.25rem;
+    color: #808297;
+    line-height: 1.75rem;
+}
+.workInfographic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+.infographicTitle {
+   font-size: 2rem;
+   text-transform: capitalize;
+}
+.infographicDiagram {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.diagramOne, .diagramTwo {
+    display: flex;
+    gap: 2rem;
+
+}
+.serviceContainer {
+   margin-top: 5rem;
+}
+.peachBg {
+    width: 600px;
+    height: 600px;
+    background: rgb(253, 227, 225);
+    position: absolute;
+    top: 34%;
+    right: 0;
+    border-radius: 56% 15% 91% 25% / 29% 0% 39% 100%;
+}
+.serviceLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 5rem;
+    transition: all 0.3s ease;
+}
+.links {
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+.apprentInfo:hover {
+    cursor: pointer;
+}
+.active{
+    background-color: #fff;
+    stroke: #00b289;
+}
+.apprentInfo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 1px solid #c5c7d4;
+    font-weight: 900;
+    color: #4c4d5f;
+}
+.hiddenInfoContainer {
+    position: absolute;
+    width: 25%;
+    top: 33%;
+    left: 40%;
+    z-index: 1;
+}
+.moreInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.75rem;
+    align-items: flex-start;
+}
+.moreInfoTitle {
+    text-transform: capitalize;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #4c4d5f;
+}
+.moreInfoDesc {
+    font-size: 1.25rem;
+    color: #656675;
+    line-height: 1.75rem;
+}
+.moreInfoDesc::first-letter {
+    text-transform: uppercase;
+}
+.moreInfoLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: #00b289;
+    font-weight: 400;
+}
+.label {
+     text-transform: capitalize;
+     font-size: 1.25rem;
+}
+.workInfoTwo {
+    /* position: relative; */
+    margin-bottom: 15rem;
+    position: absolute;
+    left: 25%;
+}
+.workInfoTwoTitle {
+    width: 38rem;
+    text-align: center;
+    color: #4c4d5f;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+.workInfoTwoText {
+    width: 70%;
+    font-size: 1.5rem;
+}
+.homeCoverage {
+    margin-top: 10%;
+}
+.homeReview {
+    margin-top: 60%;
+}
+.reviewContainer {
+    margin-top: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    font-weight: none;
+    gap: 2rem;
+}
+.review {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 5rem 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 0.25rem;
+    /* box-shadow: 0px 1px 1px 0px #eeeff20f; */
+    box-shadow: 2px 1px 15px 1px #0000000f, 10px 0px 30px 5px #0000000f;
+}
+.reviewMsg {
+    margin-bottom: 2rem;
+    color: #4c4d5f;
+    
+}
+.reviewName {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.reviewJob {
+    color: #6c6c72;
+    text-transform: capitalize;
+}
+.padding {
+    padding: 2.75rem;
+}
+

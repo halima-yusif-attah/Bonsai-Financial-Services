@@ -1,0 +1,47 @@
+
+.dynamicLoginWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    background-color: #d5f8f3;
+    padding: 3.75rem 2rem;
+    margin: 5rem 0;
+    border-radius: 0.5rem;
+}
+.dynamicLoginText {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.75rem;
+    
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+
+}
+
+.login {
+    background: none;
+    border: 1px solid #00b289;
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    color: #00b289;
+}
+
+.startfree {
+    background: #0f9070;
+    border-radius: 0.25rem;
+    border: 1px solid #0f9070;
+    width: 7.5rem;
+    height: 2rem;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.5rem;
+}

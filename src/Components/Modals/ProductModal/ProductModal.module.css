@@ -1,0 +1,118 @@
+.container {
+    position: absolute;
+    top: 72%;
+    left: 20%;
+    background: #fff;
+    width: 25%;
+    box-shadow: 2px 1px 15px 1px #0000000f, 10px 0px 30px 5px #0000000f;
+}
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.75rem;
+    padding: 1.5rem;
+}
+.product {
+    border-bottom: 2px solid #d2d2d7!important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+.product:last-child {
+    border: none;
+}
+
+.title {
+    font-size: 1.35rem;
+    font-weight: 400;
+    color: #6a6b79;
+    text-transform: capitalize;
+}
+.info {
+    font-size: 1.2rem;
+    color: #929298;
+    /* width: 65%; */
+    margin-bottom: 1.75rem;
+}
+.info::first-letter {
+    text-transform: uppercase;
+}
+.temp {
+    width: 63%;
+    position: absolute;
+    left: 26%;
+    
+}
+.templates {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2.75rem;
+    padding: 1rem;
+    position: relative;
+} 
+.template {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.tempLinks {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 35%;
+    padding: 0.5rem;
+}
+.featureContainer {
+    width: 60%;
+    position: absolute;
+    top: 3.5%;
+    left: 38%;
+}
+.featureTemps {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    margin-bottom: 3.5rem;
+}
+.featureLinks {
+    text-align: center;
+    padding: 1.5rem;
+    border: 1px solid #d2d2d7;
+    border-radius: 0.25rem;
+    color: #87878c;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.activeTemp {
+    background-color: #e1e1e2;
+}
+.titles {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    color: #87878c;
+}
+.featTitles {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    color: #4c4d5f;
+}
+.workFlow {
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: inherit;
+}
+.productsLink {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
